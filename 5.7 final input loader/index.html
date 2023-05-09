@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script defer src="js/script.js"></script>
+	<title>5.7 Final Input Loader</title>
+</head>
+<body>
+	<form class="image-loader">
+		<label for="page-input" class="top">Номер страницы</label>
+		<input class="page-input" id="page-input" type="number" min="1" max="10">
+		<label for="page-input" class="bottom">от 1 до 10</label>
+		<label for="limit-input" class="top">Лимит</label>
+		<input class="limit-input" id="limit-input" type="number" min="1" max="10">
+		<label for="limit-input" class="bottom">от 1 до 10</label>
+		<button class="image-loader-btn" type="button">Запрос</button>
+	</form>
+	<section class="images">
+	</section>
+</body>
+</html>

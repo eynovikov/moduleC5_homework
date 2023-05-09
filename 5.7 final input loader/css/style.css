@@ -1,0 +1,66 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+.image-loader {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.image-loader > input {
+	font-family: inherit;
+	max-width: 150px;
+	height: 20px;
+	margin: 3px 0;
+}
+
+.image-loader > .top[for=limit-input] {
+	margin-top: 15px;
+}
+
+.image-loader > label.bottom {
+	font-size: 11px;
+}
+
+.image-loader-btn {
+	font-family: inherit;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	height: 40px;
+	width: 120px;
+	margin-top: 20px;
+	background-color: #008cff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.images > img {
+	margin: 20px 20px;
+	object-fit: cover;
+}
+
+.invalid-number-msg {
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+@font-face {
+	font-family: "Montserrat"; 
+	src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
